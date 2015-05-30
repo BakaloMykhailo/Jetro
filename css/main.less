@@ -38,6 +38,21 @@ h3{
 	position: relative;
 	margin-bottom: 0;
 	z-index: 1;
+		.navbar-toggle{
+				color: #aaa;
+				border: 1px solid #aaa;
+				transition: all 0.3s;
+					&:hover{
+						border-color: @secondary-collor;
+						background-color: @secondary-collor;
+							.icon-bar{
+								background-color: #fff;
+							}
+					}
+					.icon-bar{
+						background-color: @main-collor;
+					}
+			}
 		.navbar-nav > li > a{
 			color: #b9b9b9;
 			font: 16px "Bebas", Arial, Helvetica, sans-serif;
