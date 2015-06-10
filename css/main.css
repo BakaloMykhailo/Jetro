@@ -253,6 +253,7 @@ h5 {
 .jt-footer .row p {
   font-size: 12px;
   margin-bottom: 18px;
+  font-style: normal;
 }
 .jt-footer .row .jt-twitter-name,
 .jt-footer .row .jt-twitter-time {
@@ -275,6 +276,10 @@ h5 {
   display: inline-block;
   width: 30px;
   height: 30px;
+  transition: .3s;
+}
+.jt-footer .row .jt-footer-social a:hover {
+  transform: scale(1.2);
 }
 .jt-about .row {
   padding: 0 0 22px 0;
@@ -369,6 +374,7 @@ h5 {
 }
 .jt-item-aside p,
 .jt-item-aside ul {
+  font-style: normal;
   font-size: 12px;
   margin-bottom: 35px;
 }
